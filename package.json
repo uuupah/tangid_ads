@@ -1,0 +1,23 @@
+{
+    "name": "tangid",
+    "displayName": "Tangid for ADS",
+    "description": "tangid theme for azure data studio",
+    "publisher": "uuupah",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.39.0",
+        "azdata": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tangid",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tangid-color-theme.json"
+            }
+        ]
+    }
+}
